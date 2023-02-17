@@ -1,4 +1,4 @@
 import itertools
 
 for item in itertools.product("01", repeat=5):
-    print(item)
+    print("".join(item))

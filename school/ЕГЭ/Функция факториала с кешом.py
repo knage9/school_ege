@@ -14,6 +14,8 @@
 
 from functools import lru_cache
 
+# bla
+
 @lru_cache(None)
 def f(n):
     if n == 1:
